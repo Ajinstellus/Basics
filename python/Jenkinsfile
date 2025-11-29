@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your/python-repo.git'
+                    url: 'https://github.com/Ajinstellus/Basics.git'
             }
         }
 
